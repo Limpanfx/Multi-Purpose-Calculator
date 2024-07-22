@@ -13,9 +13,9 @@ numbers = [int(num) for num in numbers_str_list]
 sortednumbers = sorted(numbers)
 numberamount = len(numbers)
 
-if len(numbers) > 10:
+if len(numbers) > 20:
     calculate = False
-    print("You can only calculate 10 or less numbers!")
+    print("You can only calculate 20 or less numbers!")
 
 if numberamount % 2 == 0:
     even = True
